@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>Shooting</title>
+	<style>
+		body{
+			background-color:#000;
+		}
+		#canvas{
+			position: absolute;
+			background-color: #222;
+			display: none;
+	/*		margin-left: auto;
+			margin-right: auto;
+			margin-top: 20px;*/
+		}
+		#canvas2{
+			position: absolute;
+			display: none;
+			background-color: #444;
+			font-size: 20pt;
+		}
+
+		#canvas3{
+			position: absolute;
+			display: none;
+			background-color: rgba(0,0,0,0.6);
+		}
+		img {
+			display: none;
+		}
+		p {
+			color: #fff;
+			text-align: center;
+			display: none;
+		}
+		#player {
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<canvas id="canvas" width="400px" height="600px" margin="0"></canvas>
+	<canvas id="canvas2" width="200px" height="600px" margin="0"></canvas>
+	<canvas id="canvas3" width="400px" height="600px" margin="0"></canvas>
+	<p>cursol : move / z : shot</p>	
+	<img id="stage" src="src/night.png" alt="night">
+	<img id="player" src="src/player.gif" alt="player">
+	<img id="bullet" src="src/bullet.gif" alt="bullet">
+	<img id="enemy" src="src/enemy3.gif" alt="enemy">
+	<img id="enemy_bul" src="src/bullet2.gif" alt="enemy_bullet">
+	<img id="power" src="src/power.gif" alt="">
+	<img id="life" src="src/life.gif" alt="">
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- 縦長 -->
+	<ins class="adsbygoogle"
+    	 style="display:inline-block;width:120px;height:600px"
+     	data-ad-client="ca-pub-1764001590222957"
+     	data-ad-slot="7661750425"></ins>
+	<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+	<script src="src/shooting.js"></script>
+</body>
+</html>
