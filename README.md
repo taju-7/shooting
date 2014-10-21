@@ -1,2 +1,4 @@
 shooting
 ========
+↑↓←→　・・・　move
+Space ・・・　Shot
